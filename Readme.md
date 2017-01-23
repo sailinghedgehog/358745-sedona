@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Daria Asmolova](https://up.htmlacademy.ru/htmlcss/16/user/358745).
-* Наставник: `Филипп Шамсиев`.
+* Наставник: [Philip Shamsiev] (https://up.htmlacademy.ru/htmlcss/16/user/70260).
 
 ---
 
