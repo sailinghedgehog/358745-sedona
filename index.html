@@ -8,37 +8,37 @@
     <div class="container">
       <header class="main-header">
         <nav class="main-navigation">
-          <ul>
-            <li>
-              <a href="#">Информация</a>
+          <ul class="main-navigation-block">
+            <li class="main-navigation-item">
+              <a class="main-navigation-link" href="#">Информация</a>
             </li>
-            <li>
-              <a href="#">Фото и видео</a>
+            <li class="main-navigation-item">
+              <a class="main-navigation-link" href="#">Фото и видео</a>
             </li>
-            <li>
-              <div class="header-logo">
-                <a href="#"><img src="#" alt="City of Sedona"></a>
-              </div>
+            <li class="main-navigation-item">
+              <a class="main-navigation-link" href="#">Карта штата</a>
             </li>
-            <li>
-              <a href="#">Карта штата</a>
-            </li>
-            <li>
-              <a href="#">Гостиницы</a>
+            <li class="main-navigation-item">
+              <a class="main-navigation-link" href="#">Гостиницы</a>
             </li>
           </ul>
+          <a href="#"><img src="#" alt="City of Sedona"></a>
         </nav>
       </header>
       <div class="main-image">
         <img src="#" alt="Фото Седоны">
       </div>
-      <h1 class="main-description">Седона - небольшой городок в Аризоне, <br>заслуживающий большего</h1>
-      <p class="five-reasons">Рассмотрим 5 причин, почему Седона круче, чем Гранд Каньон!</p>
+      <div class="main-description">
+        <h1 class="main-description">Седона - небольшой городок в Аризоне, заслуживающий большего</h1>
+        <p class="five-reasons">Рассмотрим 5 причин, почему Седона круче, чем Гранд Каньон!</p>
+      </div>
       <div class="reason-background">
         <div class="main-reasons">
-          <h2 class="reason">Настоящий<br>городок</h2>
-          <p class="reason-number">- №1 -</p>
+          <h2 class="reason">Настоящий городок</h2>
+          <p class="reason-number">&#8211; №1 &#8211;</p>
           <p class="reason-why">Седона - не аттракцион для туристов, там течет своя жизнь</p>
+        </div>
+        <div class="main-reasons-photo">
         </div>
       </div>
       <div class="recommend-text-block">
@@ -57,75 +57,84 @@
       </div>
       <div class="reason-background">
         <div class="main-reasons">
-          <h2 class="reason">Там есть<br>мост дьявола</h2>
-          <p class="reason-number">- №2 -</p>
+          <h2 class="reason">Там есть мост дьявола</h2>
+          <p class="reason-number">&#8211; №2 &#8211;</p>
           <p class="reason-why">Да, по нему можно пройти. Если конечно вы осмелитесь</p>
+        </div>
+        <div class="main-reasons-photo">
         </div>
       </div>
       <div class="reason-text">
         <div class="main-reasons">
-          <h2 class="reason">Небольшая<br>площадь</h2>
-          <p class="reason-number">- №3 -</p>
+          <h2 class="reason">Небольшая площадь</h2>
+          <p class="reason-number">&#8211; №3 &#8211;</p>
           <p class="reason-why">Все достопримечательности находятся очень близко</p>
         </div>
         <div class="main-reasons">
-          <h2 class="reason">Красивая<br>дорога</h2>
-          <p class="reason-number">- №4 -</p>
+          <h2 class="reason">Красивая дорога</h2>
+          <p class="reason-number">&#8211; №4 &#8211;</p>
           <p class="reason-why">Ухать в Седону из Лас-Вегаса совсем не скучно!</p>
         </div>
         <div class="main-reasons">
-          <h2 class="reason">Мало<br>туристов</h2>
-          <p class="reason-number">- №5 -</p>
+          <h2 class="reason">Мало туристов</h2>
+          <p class="reason-number">&#8211; №5 &#8211;</p>
           <p class="reason-why">Большинство едет в Гранд Каньон и толпится там</p>
         </div>
       </div>
       <div class="interest">
-        <h2 class="interest-title">Заинтеросовались?</h2>
-        <p class="interest-body">Укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-        <form class="hotel-search" method="post">
-          <a href="#">Поиск гостиницы в Седоне</a>
-            <div class="form-parameter">
-              <label class="hotel-search-title">Дата заезда:</label> <br>
-              <input type="text" name="arrival-date" value="24 апреля 2016">
-            </div>
-            <div class="form-parameter">
-              <label class="hotel-search-title">Дата выезда:</label> <br>
-              <input type="text" name="departure-date" value="4 июля 2016">
-            </div>
-            <div class="form-parameter">
-              <div class="form-quantities">
-                <label class="hotel-search-title">Взрослые</label> <br>
-                <button class="minus">-</button>
-                <input type="number" name="adults-number" value="2">
-                <button class="plus">+</button>
-              </div>
-              <div class="form-quantities">
-                <label class="hotel-search-title">Дети</label> <br>
-                <button class="minus">-</button>
-                <input type="number" name="kids-number" value="0">
-                <button class="plus">+</button>
-              </div>
-              <button class="btn" type="submit">Найти</button>
-            </div>
-        </form>
-        <div class="map">
-          <img src="#" alt="Карта">
-        </div>
-        <footer class="main-footer">
-          <div class="hashtag">
-            <p class="hashtag">#Visitsedona</p>
-          </div>
-          <div class="social-media">
-            <a href="#" class="twitter-btn">Twitter</a>
-            <a href="#" class="facebook-btn">Facebook</a>
-            <a href="#" class="youtube-btn">Youtube</a>
-          </div>
-          <div class="developer">
-            <p class="developer-name">Website by</p>
-            <a href="#" class="developer-logo"><img src="#" alt="HTML Academy logo"></a>
-          </div>
-        </footer>
+        <h2 class="interest-title">Заинтересовались?</h2>
+        <p class="interest-body">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+        <a class="search-hotel-sedona" href="#">Поиск гостиницы в Седоне</a>
       </div>
+      <form class="hotel-search" method="post">
+        <div class="form-parameter">
+          <label class="hotel-search-title" for="arrival-date">Дата заезда:</label>
+          <div class="hotel-search-date">
+            <input type="text" name="arrival-date" value="24 апреля 2016" id="arrival-date">
+            <span class="calendar-icon"></span>
+          </div>
+        </div>
+        <div class="form-parameter">
+          <label class="hotel-search-title" for="departure-date">Дата выезда:</label>
+          <div class="hotel-search-date">
+            <input type="text" name="departure-date" value="4 июля 2016" id="departure-date">
+            <span class="calendar-icon"></span>
+          </div>
+        </div>
+        <div class="form-parameter">
+          <div class="form-quantities">
+            <label class="hotel-search-title" for="adults">Взрослые</label>
+            <div class="form-quantities-number">
+              <span class="icon-minus">&#8722;</span>
+              <input type="text" value="2" id="adults">
+              <span class="icon-plus">&#43;</span>
+            </div>
+          </div>
+          <div class="form-quantities">
+            <label class="hotel-search-title" for="kids">Дети</label>
+            <div class="form-quantities-number">
+              <span class="icon-minus">&#8722;</span>
+              <input type="text" value="0" id="kids">
+              <span class="icon-plus">&#43;</span>
+            </div>
+          </div>
+          <button class="btn" type="submit">Найти</button>
+        </div>
+      </form>
+      <div class="map">
+      </div>
+      <footer class="main-footer">
+        <p class="hashtag">#Visitsedona</p>
+        <div class="social-media">
+          <a class="twitter-btn" href="#">Twitter</a>
+          <a class="facebook-btn" href="#">Facebook</a>
+          <a class="youtube-btn" href="#">Youtube</a>
+        </div>
+        <div class="developer">
+          Website by
+          <a class="developer-logo" href="#"><img src="#" alt="HTML Academy logo"></a>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
