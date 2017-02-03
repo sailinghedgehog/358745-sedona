@@ -22,14 +22,14 @@
               <a class="main-navigation-link" href="#">Гостиницы</a>
             </li>
           </ul>
-          <a href="#"><img src="#" alt="City of Sedona"></a>
+          <a class="header-logo" href="#"><img src="#" alt="City of Sedona"></a>
         </nav>
       </header>
       <div class="main-image">
         <img src="#" alt="Фото Седоны">
       </div>
       <div class="main-description">
-        <h1 class="main-description">Седона - небольшой городок в Аризоне, заслуживающий большего</h1>
+        <h1 class="main-description-copy">Седона - небольшой городок в Аризоне, заслуживающий большего</h1>
         <p class="five-reasons">Рассмотрим 5 причин, почему Седона круче, чем Гранд Каньон!</p>
       </div>
       <div class="reason-background">
@@ -86,41 +86,43 @@
         <p class="interest-body">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
         <a class="search-hotel-sedona" href="#">Поиск гостиницы в Седоне</a>
       </div>
-      <form class="hotel-search" method="post">
-        <div class="form-parameter">
-          <label class="hotel-search-title" for="arrival-date">Дата заезда:</label>
-          <div class="hotel-search-date">
-            <input type="text" name="arrival-date" value="24 апреля 2016" id="arrival-date">
-            <span class="calendar-icon"></span>
-          </div>
-        </div>
-        <div class="form-parameter">
-          <label class="hotel-search-title" for="departure-date">Дата выезда:</label>
-          <div class="hotel-search-date">
-            <input type="text" name="departure-date" value="4 июля 2016" id="departure-date">
-            <span class="calendar-icon"></span>
-          </div>
-        </div>
-        <div class="form-parameter">
-          <div class="form-quantities">
-            <label class="hotel-search-title" for="adults">Взрослые</label>
-            <div class="form-quantities-number">
-              <span class="icon-minus">&#8722;</span>
-              <input type="text" value="2" id="adults">
-              <span class="icon-plus">&#43;</span>
+      <div class="form-hotel-search">
+        <form class="hotel-search" method="post">
+          <div class="form-parameter">
+            <label class="hotel-search-title" for="arrival-date">Дата заезда:</label>
+            <div class="hotel-search-date">
+              <input class="form-hotel-search-text" type="text" name="arrival-date" value="24 апреля 2016" id="arrival-date">
+              <span class="calendar-icon"></span>
             </div>
           </div>
-          <div class="form-quantities">
-            <label class="hotel-search-title" for="kids">Дети</label>
-            <div class="form-quantities-number">
-              <span class="icon-minus">&#8722;</span>
-              <input type="text" value="0" id="kids">
-              <span class="icon-plus">&#43;</span>
+          <div class="form-parameter">
+            <label class="hotel-search-title" for="departure-date">Дата выезда:</label>
+            <div class="hotel-search-date">
+              <input class="form-hotel-search-text" type="text" name="departure-date" value="4 июля 2016" id="departure-date">
+              <span class="calendar-icon"></span>
             </div>
           </div>
-          <button class="btn" type="submit">Найти</button>
-        </div>
-      </form>
+          <div class="form-parameter">
+            <div class="form-quantities">
+              <label class="hotel-search-title" for="adults">Взрослые</label>
+              <div class="form-quantities-number">
+                <span class="icon-minus">&#8722;</span>
+                <input class="form-hotel-search-text" type="text" value="2" id="adults">
+                <span class="icon-plus">&#43;</span>
+              </div>
+            </div>
+            <div class="form-quantities">
+              <label class="hotel-search-title" for="kids">Дети</label>
+              <div class="form-quantities-number">
+                <span class="icon-minus">&#8722;</span>
+                <input class="form-hotel-search-text" type="text" value="0" id="kids">
+                <span class="icon-plus">&#43;</span>
+              </div>
+            </div>
+            <button class="btn" type="submit">Найти</button>
+          </div>
+        </form>
+      </div>
       <div class="map">
       </div>
       <footer class="main-footer">

@@ -22,36 +22,36 @@
               <a class="main-navigation-link" href="#">Гостиницы</a>
             </li>
           </ul>
-          <a href="#"><img src="#" alt="City of Sedona"></a>
+          <a class="header-logo" href="#"><img src="#" alt="City of Sedona"></a>
         </nav>
       </header>
       <div class="selection-block">
         <form class="tick-box" method="post">
-          <div class="form-infrastructure">
+          <div class="form-options">
             <h2 class="tick-box-title">Инфраструктура:</h2>
             <label class="tick-box-item" for="swimming-pool">Бассейн</label>
-            <input type="checkbox" name="swimming-pool" id="swimming-pool" checked>
+            <input class="tick-box-item-text" type="checkbox" name="swimming-pool" id="swimming-pool" checked>
             <label class="tick-box-item" for="parking">Парковка</label>
-            <input type="checkbox" name="parking" id="parking">
+            <input class="tick-box-item-text" type="checkbox" name="parking" id="parking">
             <label class="tick-box-item" for="wi-fi">Wi-Fi</label>
-            <input type="checkbox" name="wi-fi" id="wi-fi">
+            <input class="tick-box-item-text" type="checkbox" name="wi-fi" id="wi-fi">
           </div>
-          <div class="form-hotel-type">
+          <div class="form-options">
             <h2 class="tick-box-title">Тип жилья:</h2>
             <label class="tick-box-item" for="hotel">Гостиница</label>
-            <input type="checkbox" name="hotel" id="hotel" checked>
-            <label class="tick-box-item" for="motel">Мотель</label>
-            <input type="checkbox" name="motel" id="motel" checked>
+            <input class="tick-box-item-text" type="checkbox" name="hotel" id="hotel" checked>
+            <label class="tick-box-item-text" class="tick-box-item" for="motel">Мотель</label>
+            <input class="tick-box-item-text" type="checkbox" name="motel" id="motel" checked>
             <label class="tick-box-item" for="apartment">Апартаменты</label>
-            <input type="checkbox" name="apartment" id="apartment" checked>
+            <input class="tick-box-item-text" type="checkbox" name="apartment" id="apartment" checked>
           </div>
           <div class="form-price">
             <h2 class="tick-box-title">Стоимость в сутки:</h2>
             <div class="range-numbers">
               <label class="range-number" for="from">От</label>
-              <input type="text" name="from" id="from" value="0">
+              <input class="range-number-text" type="text" name="from" id="from" value="0">
               <label class="range-number" for="to">До</label>
-              <input type="text" name="to" id="to" value="3000">
+              <input class="range-number-text" type="text" name="to" id="to" value="3000">
             </div>
             <div class="range-line">
               <div class="circle-one">
@@ -85,14 +85,16 @@
             <img src="#" alt="Amara-Resort-SPA-photo">
         </figure>
         <div class="search-result-info">
-          <h2 class="search-result-name">Amara Resort &#38; SPA</h2>
+          <h2 class="search-result-name">
+            <a class="search-result-name-link" href="#">Amara Resort &#38; SPA</a>
+          </h2>
           <div class="search-result-type">
-            <p class="result-type">Гостиница</p>
-            <a class="result-type" href="url">Подробнее</a>
+            <p class="result-type-detail">Гостиница</p>
+            <a class="result-type-button" href="url">Подробнее</a>
           </div>
           <div class="search-result-type">
-            <p class="result-type">От 3500р.</p>
-            <a class="result-type" href="url">Забронировать</a>
+            <p class="result-type-detail">От 3500р.</p>
+            <a class="result-type-button" href="url">Забронировать</a>
           </div>
         </div>
         <div class="search-result-ranking">
@@ -107,14 +109,16 @@
             <img src="#" alt="Desert-Quail-Inn-photo">
         </figure>
         <div class="search-result-info">
-          <h2 class="search-result-name">Desert Quail Inn</h2>
+          <h2 class="search-result-name">
+            <a class="search-result-name-link" href="#">Desert Quail Inn</a>
+          </h2>
           <div class="search-result-type">
-            <p class="result-type">Мотель</p>
-            <a class="result-type" href="url">Подробнее</a>
+            <p class="result-type-detail">Мотель</p>
+            <a class="result-type-button" href="url">Подробнее</a>
           </div>
           <div class="search-result-type">
-            <p class="result-type">От 2000р.</p>
-            <a class="result-type" href="url">Забронировать</a>
+            <p class="result-type-detail">От 2000р.</p>
+            <a class="result-type-button" href="url">Забронировать</a>
           </div>
         </div>
         <div class="search-result-ranking">
@@ -129,14 +133,16 @@
             <img src="#" alt="Vilas-at-Poco-Diablo-photo">
         </figure>
         <div class="search-result-info">
-          <h2 class="search-result-name">Vilas at Poco Diablo</h2>
+          <h2 class="search-result-name">
+            <a class="search-result-name-link" href="#">Vilas at Poco Diablo</a>
+          </h2>
           <div class="search-result-type">
-            <p class="result-type">Апартаменты</p>
-            <a class="result-type" href="url">Подробнее</a>
+            <p class="result-type-detail">Апартаменты</p>
+            <a class="result-type-button" href="url">Подробнее</a>
           </div>
           <div class="search-result-type">
-            <p class="result-type">От 4000р.</p>
-            <a class="result-type" href="url">Забронировать</a>
+            <p class="result-type-detail">От 4000р.</p>
+            <a class="result-type-button" href="url">Забронировать</a>
           </div>
         </div>
         <div class="search-result-ranking">
@@ -147,7 +153,7 @@
         </div>
       </div>
       <footer class="main-footer">
-        <p class="hashtag">#Visitsedona</p>
+        <div class="hashtag">#Visitsedona</div>
         <div class="social-media">
           <a class="twitter-btn" href="#">Twitter</a>
           <a class="facebook-btn" href="#">Facebook</a>
