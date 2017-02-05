@@ -1,0 +1,55 @@
+body h1 .main-description-copy {
+  font-family: PT Sans;
+  font-size: 21px;
+  font-color: #000000;
+  font-style: bold;
+  line-height: normal;
+}
+
+body h2 .reason {
+  font-family: PT Sans;
+  font-size: 21px;
+  font-color: #ffffff;
+  font-style: bold;
+  line-height: normal;
+}
+
+body h2 .recommend-title {
+  font-family: PT Sans;
+  font-size: 21px;
+  font-color: #000000;
+  font-style: bold;
+  line-height: normal;
+}
+
+body h2 .interest-title {
+  font-family: PT Sans;
+  font-size: 30px;
+  font-color: #000000;
+  font-style: bold;
+  line-height: normal;
+}
+
+body h2 .tick-box-title {
+  font-family: PT Sans;
+  font-size: 16px;
+  font-color: #000000;
+  font-style: bold;
+  line-height: normal;
+}
+
+body h2 .search-result-quantity {
+  font-family: PT Sans;
+  font-size: 21px;
+  font-color: #ffffff;
+  font-style: bold;
+  line-height: normal;
+}
+
+body h2 .search-result-name {
+  font-family: PT Sans;
+  font-size: 21px;
+  font-color: #ffffff;
+  font-style: bold;
+  line-height: normal;
+}
