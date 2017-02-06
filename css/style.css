@@ -1,55 +1,34 @@
-body h1 .main-description-copy {
-  font-family: PT Sans;
+body {
+  font-family: "PT Sans";
+  font-style: bold;
   font-size: 21px;
   font-color: #000000;
-  font-style: bold;
-  line-height: normal;
+  line-height: 26px;
 }
 
-body h2 .reason {
-  font-family: PT Sans;
-  font-size: 21px;
+.reason {
   font-color: #ffffff;
-  font-style: bold;
-  line-height: normal;
+  line-height: 21px;
 }
 
-body h2 .recommend-title {
-  font-family: PT Sans;
-  font-size: 21px;
-  font-color: #000000;
-  font-style: bold;
-  line-height: normal;
+.recommend-title {
+  line-height: 21px;
 }
 
-body h2 .interest-title {
-  font-family: PT Sans;
+.interest-title {
   font-size: 30px;
-  font-color: #000000;
-  font-style: bold;
-  line-height: normal;
+  line-height: 24px;
 }
 
-body h2 .tick-box-title {
-  font-family: PT Sans;
+.tick-box-title {
   font-size: 16px;
-  font-color: #000000;
-  font-style: bold;
-  line-height: normal;
+  line-height: 21px;
 }
 
-body h2 .search-result-quantity {
-  font-family: PT Sans;
-  font-size: 21px;
+.search-result-quantity {
   font-color: #ffffff;
-  font-style: bold;
-  line-height: normal;
 }
 
-body h2 .search-result-name {
-  font-family: PT Sans;
-  font-size: 21px;
+.search-result-name {
   font-color: #ffffff;
-  font-style: bold;
-  line-height: normal;
 }
