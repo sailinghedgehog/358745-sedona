@@ -33,6 +33,10 @@ body {
   font-color: #ffffff;
 }
 
-.reasons-photo-one {
+.main-reasons-photo {
   background-image: url("../img/index-background-one.jpg");
+}
+
+.reasons-photo-two {
+  background-image: url("../img/index-background-two.jpg");
 }
