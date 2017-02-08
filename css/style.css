@@ -1,39 +1,55 @@
 body {
-  font-family: "PT Sans";
-  font-style: bold;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 21px;
+  font-family: "PT Sans", "Arial", "sans-serif";
+  color: #333333;
+  background-color: #ffffff;
+}
+
+.main-description-copy {
+  font-weight: bold;
   font-size: 21px;
-  font-color: #000000;
   line-height: 26px;
+  color: #000000;
 }
 
 .reason {
-  font-color: #ffffff;
-  line-height: 21px;
-}
-
-.recommend-title {
-  line-height: 21px;
+  font-weight: bold;
+  font-size: 21px;
+  color: #000000;
 }
 
 .interest-title {
+  font-weight: bold;
   font-size: 30px;
   line-height: 24px;
+  color: #000000;
 }
 
-.tick-box-title {
-  font-size: 16px;
-  line-height: 21px;
+.search-hotel-sedona {
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
+  color: #ffffff;
 }
 
-.search-result-quantity {
-  font-color: #ffffff;
+.hotel-search-title {
+  font-weight: bold;
+  line-height: 26px;
+  color: #000000;
 }
 
-.search-result-name {
-  font-color: #ffffff;
+.hashtag {
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
+  color: #ffffff;
 }
 
 .main-reasons-photo {
+  width: 800px;
+  height: 256px;
   background-image: url("../img/index-background-one.jpg");
 }
 
