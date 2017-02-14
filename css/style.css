@@ -1,114 +1,97 @@
 body {
+  width: 1280px;
   font-style: normal;
   font-size: 14px;
   line-height: 21px;
   font-family: "PT Sans", "Arial", "sans-serif";
   color: #333333;
   background-color: #f2f2f2;
-  background-size: 1280px auto;
 }
 
 .container {
   width: 1200px;
-  margin: auto;
-  margin-left: 40px;
-  margin-right: 40px;
-  min-height: 2762px;
-}
-
-.clearfix::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.main-header {
-  min-height: 56px;
-}
-
-.main-navigation {
-  display: block;
   margin: 0 auto;
-  padding: 0 10px;
-  min-height: 56px;
   background-color: #ffffff;
 }
 
 .main-navigation-block {
-  width: 1056px;
-  margin-left: 73px;
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 .main-navigation-item {
-  float: left;
-  padding-top: 22px
+  margin-top: 20px;
 }
 
-.header-logo {
-  width: 140px;
-  min-height: 70px;
-}
-
-.main-image {
-  min-height: 510px;
-}
-
-.main-description {
-  display: block;
-  margin: 0 auto;
-  padding: 0 10px;
-  min-height: 216px;
-  background-colour: #ffffff;
-}
-
-}
 .main-description-copy {
-  float: left;
-  width: 441px;
-  min-height: 45px;
-  margin: 60px;
-  font-weight: bold;
-  font-size: 21px;
-  line-height: 26px;
-  color: #000000;
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 59px;
+  text-align: center;
+}
+
+.five-reasons {
+  margin-top: 32px;
+  text-align: center;
 }
 
 .reason {
+  width: 130px;
+  margin: 0 auto;
+  margin-top: 49px;
   font-weight: bold;
   font-size: 21px;
+  text-align: center;
   color: #000000;
+}
+
+.main-reasons {
+  width: 400px;
+  margin-top: 50px;
+}
+
+.main-reasons-photo {
+  display: flex;
+  width: 800px;
+  height: 255px;
+  margin-top: 47px;
 }
 
 .reason-background {
-  display: block;
-  min-height: 256px;
+  display: flex;
 }
 
-.interest-title {
-  font-weight: bold;
-  font-size: 30px;
-  line-height: 24px;
-  color: #000000;
+.reasons-photo-two {
+  order: -1;
 }
 
-.search-hotel-sedona {
-  font-weight: bold;
-  font-size: 21px;
-  line-height: 26px;
-  color: #ffffff;
+.recommend-text-block {
+  display: flex;
 }
 
-.hotel-search-title {
-  font-weight: bold;
-  line-height: 26px;
-  color: #000000;
+.reason-text {
+  display: flex;
+  background-color: #eeeeee;
 }
 
-.hashtag {
-  font-weight: bold;
-  font-size: 21px;
-  line-height: 26px;
-  color: #ffffff;
+.recommend {
+  width: 400px;
+  margin-top: 160px;
+}
+
+.recommend-body,
+.reason-number {
+  margin-top: 27px;
+  text-align: center;
+}
+
+.reason-why {
+  margin-top: 27px;
+  margin-bottom:60px;
+  text-align: center;
 }
 
 .main-reasons-photo {
@@ -119,4 +102,145 @@ body {
 
 .reasons-photo-two {
   background-image: url("../img/index-background-two.jpg");
+}
+
+.interest-title {
+  margin: o auto;
+  margin-top: 53px;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+}
+
+.interest-body {
+  width: 442px;
+  margin: 0 auto;
+  margin-top: 32px;
+  text-align: center;
+}
+
+.search-hotel-sedona {
+  display: block;
+  width: 567px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
+  color: #ffffff;
+  background-color: #766357;
+  text-align: center;
+}
+
+.form-hotel-search {
+  width: 567px;
+  margin: 0 auto;
+}
+
+.form-quantities {
+  display: flex;
+}
+
+.form-quantities-number {
+  display: flex;
+  margin-left: 20px;
+}
+
+.hotel-search-date {
+  margin-left: 20px;
+}
+
+.form-parameter {
+  display: flex;
+  margin-top: 27px;
+  margin-left: 55px;
+}
+
+.btn {
+  display: block;
+  width: 458px;
+  height: 58px;
+  font-size: 21px;
+  line-height: 26px;
+  color: #ffffff;
+  background-color: #81b3d2;
+}
+
+.selection-block {
+  width: 1200px;
+  height: 219px;
+  background-image: url("../img/hotels-search-background.jpg");
+}
+
+.form-options {
+  margin-top: 28px;
+  margin-left: 42px;
+}
+
+.form-price {
+  margin-top: 28px;
+  margin-left: 332px;
+}
+
+.hotel-search-title {
+  font-weight: bold;
+  line-height: 26px;
+  color: #000000;
+}
+
+.tick-box {
+  display: flex;
+  justify-content: space-around;
+}
+
+.filter-signs {
+  display: flex;
+  margin-left: 42px;
+  align-items: center;
+}
+
+.filter {
+  margin-left: 44px;
+}
+
+.search-result-hotel-photo {
+  margin-left: 44px;
+}
+
+.search-result {
+  display: flex;
+}
+
+.main-footer {
+  display: flex;
+  background-color: #fdfdfd;
+}
+
+.hashtag {
+  width: 400px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
+}
+
+.social-media {
+  width: 400px;
+  margin-top: 36px;
+  text-align:center;
+}
+
+.developer {
+  width: 400px;
+  margin-top: 41px;
+}
+
+.map-outline {
+  width: 1200px;
+  height: 593px;
+  background-image: url("../img/map.png");
 }
